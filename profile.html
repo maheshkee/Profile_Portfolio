@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mahesh Kumar | Backend Developer</title>
+
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #f9fafb;
+            color: #111827;
+            margin: 0;
+            padding: 0;
+            line-height: 1.75; /* improved for mobile */
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 6px;
+            margin-top: 40px;
+        }
+
+        p {
+            margin: 8px 0;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: #374151;
+        }
+
+        .links a {
+            margin-right: 18px;
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 500;
+            padding: 6px 0;
+            display: inline-block; /* thumb friendly */
+        }
+
+        .tldr {
+            background: #eef2ff;
+            border-left: 4px solid #6366f1;
+            padding: 12px 14px;
+            margin: 20px 0;
+            border-radius: 6px;
+            font-size: 0.95rem;
+        }
+
+        .tldr strong {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #e5e7eb;
+            padding: 6px 10px;
+            border-radius: 6px;
+            margin: 6px 6px 0 0;
+            font-size: 0.9rem;
+        }
+
+        .project {
+            background: #ffffff;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+
+        .project h3 {
+            margin-bottom: 4px;
+        }
+
+        .project ul {
+            margin: 8px 0 0 18px;
+        }
+
+        footer {
+            margin-top: 60px;
+            font-size: 0.85rem;
+            color: #6b7280;
+            text-align: center;
+        }
+
+        /* 🔹 QR / Mobile optimization */
+        @media (max-width: 480px) {
+            .container {
+                padding: 24px 16px;
+            }
+
+            h1 {
+                font-size: 1.9rem;
+            }
+
+            h2 {
+                font-size: 1.25rem;
+            }
+
+            .tagline {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <!-- HEADER -->
+    <h1>Mahesh Kumar</h1>
+    <p class="tagline">
+        Backend Developer · Python · Databases · Systems Thinking
+    </p>
+
+    <!-- TL;DR -->
+    <div class="tldr">
+        <strong>TL;DR</strong>
+        <p>
+            Backend-focused developer skilled in Python, HTTP, databases, and debugging.
+            Builds clear, maintainable systems and understands backend internals deeply.
+        </p>
+    </div>
+
+    <div class="links">
+        <a href="https://github.com/maheshkee" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/nanupatruni-mahesh-kumar-29105b37b/" target="_blank">LinkedIn</a>
+        <a href="mailto:maheshkumaree25@gmail.com">Email</a>
+    </div>
+
+    <!-- ABOUT -->
+    <h2>About Me</h2>
+    <p>
+        I am a backend-focused developer who enjoys understanding systems from the ground up —
+        HTTP, sockets, databases, request–response flow, and debugging real-world failures.
+    </p>
+    <p>
+        I prefer clarity, correctness, and maintainability over over-engineering.
+    </p>
+
+    <!-- SKILLS -->
+    <h2>Core Skills</h2>
+    <div class="skills">
+        <span>System Internals</span>
+        <span>Python</span>
+        <span>Flask</span>
+        <span>REST APIs</span>
+        <span>SQL (SQLite, PostgreSQL)</span>
+        <span>HTTP / TCP</span>
+        <span>Linux</span>
+        <span>Git</span>
+        <span>Debugging (pdb, lldb)</span>
+        <span>Basics in C</span>
+        <span>HTML Fundamentals</span>
+    </div>
+
+    <!-- PROJECTS -->
+    <h2>Selected Projects</h2>
+
+    <div class="project">
+        <h3>Exam Preparation Tracker (Backend)</h3>
+        <p>
+            A backend system to help users track daily exam preparation tasks and syllabus progress.
+        </p>
+        <ul>
+            <li>Designed normalized database schema with user, exam, syllabus, and task tables</li>
+            <li>Built REST APIs using Flask</li>
+            <li>Used SQLite for development with migration-friendly schema design</li>
+            <li>Focus on correctness, clarity, and debuggability</li>
+        </ul>
+    </div>
+
+    <div class="project">
+        <h3>HTTP Server from Scratch (Learning Project)</h3>
+        <p>
+            Implemented a minimal HTTP server using Python sockets to deeply understand HTTP internals.
+        </p>
+        <ul>
+            <li>Manual parsing of request lines and headers</li>
+            <li>Constructed valid HTTP responses with status codes and headers</li>
+            <li>Used curl and netcat for testing and debugging</li>
+        </ul>
+    </div>
+
+    <!-- HOW I THINK -->
+    <h2>How I Approach Backend Problems</h2>
+    <ul>
+        <li>Understand request–response lifecycle end to end</li>
+        <li>Design database schema before writing APIs</li>
+        <li>Log and debug instead of guessing</li>
+        <li>Prefer simple, explainable solutions</li>
+    </ul>
+
+    <!-- LEARNING -->
+    <h2>Currently Learning</h2>
+    <ul>
+        <li>Deeper SQL optimization and indexing</li>
+        <li>Authentication & authorization internals</li>
+        <li>Scalability basics and system design fundamentals</li>
+        <li>APIs Integration with Database</li>
+    </ul>
+
+    <footer>
+        Built with plain HTML & CSS · No frameworks · Focused on backend clarity
+    </footer>
+
+</div>
+</body>
+</html>

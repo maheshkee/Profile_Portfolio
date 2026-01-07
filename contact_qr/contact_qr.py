@@ -2,7 +2,7 @@ import qrcode
 
 vcard_data = """BEGIN:VCARD
 VERSION:3.0
-N:Mahesh;Kumar;;;
+N:Kumar;Mahesh;;;
 FN:Mahesh Kumar
 ORG:Software Engineer
 TITLE:Backend Developer

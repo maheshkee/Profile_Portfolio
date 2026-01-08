@@ -8,7 +8,7 @@ ORG:Software Engineer
 TITLE:Backend Developer
 TEL;TYPE=CELL:+917989775998
 EMAIL:maheshkumaree25@gmail.com
-URL:https://maheshkee.github.io/Profile_Portfolio/
+URL:https://maheshkee.github.io/
 END:VCARD
 """
 
